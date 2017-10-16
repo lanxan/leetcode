@@ -25,14 +25,14 @@ var addTwoNumbers = function(l1, l2) {
 
     while (l1 !== null || l2 !== null) {
         if (l1 !== null) {
-            val1 = parseInt(l1.val);
+            val1 = l1.val;
             l1 = l1.next;
         } else {
             val1 = 0;
         }
 
         if (l2 !== null) {
-            val2 = parseInt(l2.val);
+            val2 = l2.val;
             l2 = l2.next;
         } else {
             val2 = 0;
